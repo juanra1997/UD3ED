@@ -11,7 +11,13 @@ package prueba.junit;
  */
 public class PruebaJunit {
     public static int division(int numerador, int denominador){
-            return (numerador/denominador);
+        int resultado=0;
+        try{
+            resultado=(numerador/denominador);
+        } catch (Exception e) {
+            System.out.println("Se ha producido un error: "+e.getMessage());
+        }
+        return (numerador/denominador);
     }
 
     /**
