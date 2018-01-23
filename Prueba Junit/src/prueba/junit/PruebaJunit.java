@@ -20,6 +20,7 @@ public class PruebaJunit {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Resultado de la division: "+division(2,3));
+        //A ver que hace
     }
     
 }
